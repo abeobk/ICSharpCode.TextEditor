@@ -62,6 +62,7 @@
 	<Mode file       = "JOB-Mode.xshd"
 	      name       = "HRJOB"
 	      extensions = ".job"/>
+
 	<Mode file       = "AS-Mode.xshd"
 	      name       = "KAWASAKI_AS"
 	      extensions = ".as"/>

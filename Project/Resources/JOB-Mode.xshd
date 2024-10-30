@@ -53,6 +53,7 @@
 			
 			<KeyWords name = "Move" bold="true" italic="false" color="DarkMagenta">
 				<Key word = "MOVE" />
+				<Key word = "move" />
 			</KeyWords>
 
 			<KeyWords name = "MoveParam" bold="true" italic="false" color="MidnightBlue">
@@ -65,6 +66,13 @@
 				<Key word = "CRD" />
 				<Key word = "R" />
 				<Key word = "R" />
+				<Key word = "tg" />
+				<Key word = "spd" />
+				<Key word = "accu" />
+				<Key word = "tool" />
+				<Key word = "date" />
+				<Key word = "time" />
+				<Key word = "timer" />
 			</KeyWords>
 
 			<KeyWords name = "Keyword" bold="true" italic="false" color="Blue">
@@ -85,8 +93,56 @@
 				<Key word = "SONL" />
 				<Key word = "TONL" />
 				<Key word = "NEXT" />
-				<Key word = "RETURN" />
 				<Key word = "CONTINUE" />
+				<Key word = "until" />
+				<Key word = "for" />
+				<Key word = "next" />
+				<Key word = "end" />
+				<Key word = "if" />
+				<Key word = "then" />
+				<Key word = "else" />
+				<Key word = "endif" />
+				<Key word = "switch" />
+				<Key word = "case" />
+				<Key word = "default" />
+				<Key word = "end_switch" />
+				<Key word = "var" />
+				<Key word = "global" />
+				<Key word = "print" />
+				<Key word = "true" />
+				<Key word = "false" />
+				<Key word = "Array" />
+				<Key word = "Pose" />
+				<Key word = "Shift" />
+				<Key word = "cpo" />
+				<Key word = "auto" />
+				<Key word = "mkucs" />
+				<Key word = "result" />
+				<Key word = "mkshift" />
+				<Key word = "selucrd" />
+				<Key word = "contpath" />
+				<Key word = "coldet" />
+				<Key word = "colsense" />
+				<Key word = "softxyz" />
+				<Key word = "softxyz_lim" />
+				<Key word = "softjoint" />
+				<Key word = "softjoint_lim" />
+				<Key word = "convcrd" />
+				<Key word = "pose_trans" />
+				<Key word = "pose_inv" />
+				<Key word = "axisctrl" />
+				<Key word = "smov" />
+				<Key word = "shift" />
+				<Key word = "shift_lim" />
+				<Key word = "calshift" />
+				<Key word = "valid" />
+				<Key word = "str_array" />
+				<Key word = "import" />
+				<Key word = "as" />
+				<Key word = "continue" />
+				<Key word = "param" />
+				<Key word = "alias" />
+				<Key word = "def" />
 			</KeyWords>
 
 			<KeyWords name = "Keyword1" bold="true" italic="false" color="Red">
@@ -96,6 +152,18 @@
 				<Key word = "WAIT" />
 				<Key word = "CALL" />
 				<Key word = "DELAY" />
+				<Key word = "RETURN" />
+				<Key word = "jump" />
+				<Key word = "call" />
+				<Key word = "stop" />
+				<Key word = "end" />
+				<Key word = "wait" />
+				<Key word = "delay" />
+				<Key word = "goto" />
+				<Key word = "gosub" />
+				<Key word = "retsub" />
+				<Key word = "return" />
+				<Key word = "break" />
 				<Key word = "_MECHTYPE" />
 				<Key word = "_TOTAL_AX" />
 				<Key word = "_AUX_AX" />

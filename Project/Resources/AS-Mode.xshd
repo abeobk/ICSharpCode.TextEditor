@@ -1,0 +1,150 @@
+<?xml version="1.0"?>
+<!-- syntaxdefinition for Hyundai robot language (Do Van Phu 2024)-->
+
+<SyntaxDefinition name = "KAWASAKI_AS" extensions = ".as">
+    <Digits name = "Digits" bold = "false" italic = "false" color = "Maroon"/>
+	<RuleSets>
+		<RuleSet ignorecase = "true">
+			<Delimiters>&amp;~!%^*()-+=|\#/{}[]:;"'&lt;&gt; , .?</Delimiters>
+		
+			<Span name = "LineComment" bold = "false" italic = "false" color = "Green" stopateol = "true">
+				<Begin>;</Begin>
+			</Span>
+			
+			<Span name = "String" bold = "false" italic = "false" color = "DarkCyan" stopateol = "true" escapecharacter="\">
+				<Begin>"</Begin>
+				<End>"</End>
+			</Span>
+
+			<KeyWords name = "Punctuation" bold = "true" italic = "false" color = "DarkRed">
+				<Key word = "?" />
+				<Key word = "," />
+				<Key word = "." />
+				<Key word = ";" />
+				<Key word = "(" />
+				<Key word = ")" />
+				<Key word = "[" />
+				<Key word = "]" />
+				<Key word = "{" />
+				<Key word = "}" />
+				<Key word = "+" />
+				<Key word = "-" />
+				<Key word = "/" />
+				<Key word = "%" />
+				<Key word = "*" />
+				<Key word = "&lt;" />
+				<Key word = "&gt;" />
+				<Key word = "^" />
+				<Key word = "=" />
+				<Key word = "~" />
+				<Key word = "!" />
+				<Key word = "|" />
+				<Key word = "&amp;" />
+			</KeyWords>
+			
+			<KeyWords name = "Move" bold="true" italic="false" color="DarkMagenta">
+				<Key word = "LMOVE" />
+				<Key word = "JMOVE" />
+				<Key word = "JOINT" />
+				<Key word = "LINEAR" />
+			</KeyWords>
+
+			<KeyWords name = "MoveParam" bold="true" italic="false" color="MidnightBlue">
+				<Key word = "SPEED0" />
+				<Key word = "SPEED1" />
+				<Key word = "SPEED2" />
+				<Key word = "SPEED3" />
+				<Key word = "SPEED4" />
+				<Key word = "SPEED5" />
+				<Key word = "SPEED6" />
+				<Key word = "SPEED7" />
+				<Key word = "SPEED8" />
+				<Key word = "SPEED9" />
+				<Key word = "ACCU0" />
+				<Key word = "ACCU1" />
+				<Key word = "ACCU2" />
+				<Key word = "ACCU3" />
+				<Key word = "ACCU4" />
+				<Key word = "ACCU5" />
+				<Key word = "TIMER0" />
+				<Key word = "TIMER1" />
+				<Key word = "TIMER2" />
+				<Key word = "TIMER3" />
+				<Key word = "TIMER4" />
+				<Key word = "TIMER5" />
+				<Key word = "TOOL0" />
+				<Key word = "TOOL1" />
+				<Key word = "TOOL2" />
+				<Key word = "TOOL3" />
+				<Key word = "TOOL4" />
+				<Key word = "TOOL5" />
+				<Key word = "TOOL6" />
+				<Key word = "TOOL7" />
+				<Key word = "TOOL8" />
+				<Key word = "TOOL9" />
+				<Key word = "WORKC" />
+				<Key word = "WORK0" />
+				<Key word = "WORK1" />
+				<Key word = "CLAMP0" />
+				<Key word = "CLAMP1" />
+				<Key word = "CLAMP2" />
+				<Key word = "CLAMP3" />
+				<Key word = "CLAMP4" />
+				<Key word = "CLAMP5" />
+				<Key word = "JUMP" />
+				<Key word = "OX" />
+				<Key word = "WX" />
+				<Key word = "OFF" />
+				<Key word = "O" />
+			</KeyWords>
+
+			<KeyWords name = "Keyword" bold="true" italic="false" color="Blue">
+				<Key word = "PROGRAM" />
+				<Key word = "SETGAUGE" />
+				<Key word = "GETGHTRANS" />
+				<Key word = "PROGRAM" />
+				<Key word = "REALS" />
+				<Key word = "JOINTS" />
+				<Key word = "TRANS" />
+				<Key word = "STRINGS" />
+				<Key word = "IF" />
+				<Key word = "THEN" />
+				<Key word = "ELSE" />
+				<Key word = "FOR" />
+				<Key word = "DO" />
+				<Key word = "END" />
+				<Key word = "CASE" />
+				<Key word = "RETURN" />
+				<Key word = "CONTINUE" />
+				<Key word = "LIN2" />
+				<Key word = "BSPEED" />
+				<Key word = "SEND" />
+				<Key word = "PRINT" />
+				<Key word = "HERE" />
+				<Key word = "POINT" />
+				<Key word = "TRADD" />
+				<Key word = "HOME" />
+				<Key word = "TOOL" />
+				<Key word = "QTOOL" />
+				<Key word = "ACCURACY" />
+			</KeyWords>
+
+			<KeyWords name = "Keyword1" bold="true" italic="false" color="Red">
+				<Key word = "STOP" />
+				<Key word = "BREAK" />
+				<Key word = "GOTO" />
+				<Key word = "SETSIO" />
+				<Key word = "WAIT" />
+				<Key word = "CALL" />
+				<Key word = "DELAY" />
+				<Key word = "RESET" />
+				<Key word = "_MECHTYPE" />
+				<Key word = "_TOTAL_AX" />
+				<Key word = "_AUX_AX" />
+			</KeyWords>
+
+
+        </RuleSet>
+	</RuleSets>
+</SyntaxDefinition>
+

@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<!-- syntaxdefinition for Hyundai robot language (Do Van Phu 2024)-->
+
+<SyntaxDefinition name = "HRJOB" extensions = ".job">
+    <Digits name = "Digits" bold = "false" italic = "false" color = "Maroon"/>
+	<RuleSets>
+		<RuleSet ignorecase = "false">
+			<Delimiters>&amp;~!%^*()-+=|\#/{}[]:;"'&lt;&gt; , .?</Delimiters>
+		
+			<Span name = "LineComment" bold = "false" italic = "false" color = "Green" stopateol = "true">
+				<Begin>'</Begin>
+			</Span>
+			
+			<Span name = "String" bold = "false" italic = "false" color = "DarkCyan" stopateol = "true" escapecharacter="\">
+				<Begin>"</Begin>
+				<End>"</End>
+			</Span>
+
+			<Span name = "Header1" bold = "false" italic = "false" color = "Magenta" stopateol = "true" escapecharacter="\">
+				<Begin>Program</Begin>
+				<End>Version</End>
+			</Span>
+
+            <KeyWords name = "SHARP" bold = "true" italic = "false" color = "Magenta">
+                <Key word = "#" />
+            </KeyWords>
+
+			<KeyWords name = "Punctuation" bold = "true" italic = "false" color = "Indigo">
+				<Key word = "?" />
+				<Key word = "," />
+				<Key word = "." />
+				<Key word = ";" />
+				<Key word = "(" />
+				<Key word = ")" />
+				<Key word = "[" />
+				<Key word = "]" />
+				<Key word = "{" />
+				<Key word = "}" />
+				<Key word = "+" />
+				<Key word = "-" />
+				<Key word = "/" />
+				<Key word = "%" />
+				<Key word = "*" />
+				<Key word = "&lt;" />
+				<Key word = "&gt;" />
+				<Key word = "^" />
+				<Key word = "=" />
+				<Key word = "~" />
+				<Key word = "!" />
+				<Key word = "|" />
+				<Key word = "&amp;" />
+			</KeyWords>
+			
+			<KeyWords name = "Move" bold="true" italic="false" color="DarkMagenta">
+				<Key word = "MOVE" />
+			</KeyWords>
+
+			<KeyWords name = "MoveParam" bold="true" italic="false" color="MidnightBlue">
+				<Key word = "P" />
+				<Key word = "L" />
+				<Key word = "S" />
+				<Key word = "A" />
+				<Key word = "T" />
+				<Key word = "ST" />
+				<Key word = "CRD" />
+				<Key word = "R" />
+				<Key word = "R" />
+			</KeyWords>
+
+			<KeyWords name = "Keyword" bold="true" italic="false" color="Blue">
+				<Key word = "MKUCRD" />
+				<Key word = "SELUCRD" />
+				<Key word = "TOOLSEL" />
+				<Key word = "RESET" />
+				<Key word = "SEND" />
+				<Key word = "PRINT" />
+				<Key word = "CALL" />
+				<Key word = "CALLPR" />
+				<Key word = "IF" />
+				<Key word = "THEN" />
+				<Key word = "ELSE" />
+				<Key word = "FOR" />
+				<Key word = "DO" />
+				<Key word = "END" />
+				<Key word = "SONL" />
+				<Key word = "TONL" />
+				<Key word = "NEXT" />
+				<Key word = "RETURN" />
+				<Key word = "CONTINUE" />
+			</KeyWords>
+
+			<KeyWords name = "Keyword1" bold="true" italic="false" color="Red">
+				<Key word = "STOP" />
+				<Key word = "BREAK" />
+				<Key word = "GOTO" />
+				<Key word = "WAIT" />
+				<Key word = "CALL" />
+				<Key word = "DELAY" />
+				<Key word = "_MECHTYPE" />
+				<Key word = "_TOTAL_AX" />
+				<Key word = "_AUX_AX" />
+			</KeyWords>
+
+			<KeyWords name = "Header" bold="true" italic="false" color="Magenta">
+				<Key word = "PROG" />
+				<Key word = "MechType" />
+				<Key word = "TotalAxis" />
+				<Key word = "AuxAxis" />
+			</KeyWords>
+
+
+        </RuleSet>
+	</RuleSets>
+</SyntaxDefinition>
+

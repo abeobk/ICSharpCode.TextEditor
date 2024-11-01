@@ -25,7 +25,7 @@
                 <Key word = "#" />
             </KeyWords>
 
-			<KeyWords name = "Punctuation" bold = "true" italic = "false" color = "Indigo">
+            <KeyWords name = "Punctuation" bold = "true" italic = "false" color = "Indigo">
 				<Key word = "?" />
 				<Key word = "," />
 				<Key word = "." />

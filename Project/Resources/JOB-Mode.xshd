@@ -103,7 +103,6 @@
                 <Key word = "NEXT" />
                 <Key word = "CONTINUE" />
             </KeyWords>
-
             <KeyWords name = "Keyword1" bold="true" italic="false" color="Red">
                 <Key word = "STOP" />
                 <Key word = "BREAK" />
@@ -117,7 +116,17 @@
                 <Key word = "_MECHTYPE" />
                 <Key word = "_TOTAL_AX" />
                 <Key word = "_AUX_AX" />
+            </KeyWords>
 
+            <KeyWords name = "Header" bold="true" italic="false" color="Magenta">
+                <Key word = "#PROG" />
+                <Key word = "PROG" />
+                <Key word = "MechType" />
+                <Key word = "TotalAxis" />
+                <Key word = "AuxAxis" />
+            </KeyWords>
+
+            <KeyWords name = "DI" bold="true" italic="false" color="DarkBlue">
                 <Key word = "DI0" />
                 <Key word = "DI1" />
                 <Key word = "DI2" />
@@ -1142,6 +1151,9 @@
                 <Key word = "DI1021" />
                 <Key word = "DI1022" />
                 <Key word = "DI1023" />
+            </KeyWords>
+
+            <KeyWords name = "DO" bold="true" italic="false" color="DarkRed">
                 <Key word = "DO0" />
                 <Key word = "DO1" />
                 <Key word = "DO2" />
@@ -2166,17 +2178,6 @@
                 <Key word = "DO1021" />
                 <Key word = "DO1022" />
                 <Key word = "DO1023" />
-
-            </KeyWords>
-
-            <KeyWords name = "Header" bold="true" italic="false" color="Magenta">
-                <Key word = "#PROG" />
-                <Key word = "PROG" />
-                <Key word = "DI" />
-                <Key word = "DO" />
-                <Key word = "MechType" />
-                <Key word = "TotalAxis" />
-                <Key word = "AuxAxis" />
             </KeyWords>
         </RuleSet>
     </RuleSets>

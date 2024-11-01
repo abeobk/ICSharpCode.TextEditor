@@ -155,7 +155,18 @@
                 <Key word = "retsub" />
                 <Key word = "return" />
                 <Key word = "break" />
+            </KeyWords>
 
+            <KeyWords name = "Header" bold="true" italic="false" color="Magenta">
+                <Key word = "PROG" />
+                <Key word = "#PROG" />
+                <Key word = "mech_type" />
+                <Key word = "total_axis" />
+                <Key word = "aux_axis" />
+            </KeyWords>
+
+
+            <KeyWords name = "di" bold="true" italic="false" color="DarkBlue">
                 <Key word = "di0" />
                 <Key word = "di1" />
                 <Key word = "di2" />
@@ -1180,6 +1191,9 @@
                 <Key word = "di1021" />
                 <Key word = "di1022" />
                 <Key word = "di1023" />
+
+            </KeyWords>
+            <KeyWords name = "do" bold="true" italic="false" color="DarkRed">
                 <Key word = "do0" />
                 <Key word = "do1" />
                 <Key word = "do2" />
@@ -2204,16 +2218,8 @@
                 <Key word = "do1021" />
                 <Key word = "do1022" />
                 <Key word = "do1023" />
-
             </KeyWords>
 
-            <KeyWords name = "Header" bold="true" italic="false" color="Magenta">
-                <Key word = "PROG" />
-                <Key word = "#PROG" />
-                <Key word = "mech_type" />
-                <Key word = "total_axis" />
-                <Key word = "aux_axis" />
-            </KeyWords>
         </RuleSet>
     </RuleSets>
 </SyntaxDefinition>

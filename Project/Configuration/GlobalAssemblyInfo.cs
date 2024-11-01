@@ -14,8 +14,8 @@
 /////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////
 
-using System.Resources;
 using System.Reflection;
+using System.Resources;
 
 [assembly: System.Runtime.InteropServices.ComVisible(false)]
 [assembly: AssemblyCompany("ic#code")]
@@ -24,13 +24,12 @@ using System.Reflection;
 [assembly: AssemblyVersion(RevisionClass.FullVersion)]
 [assembly: NeutralResourcesLanguage("en-US")]
 
-internal static class RevisionClass
-{
-	public const string Major = "4";
-	public const string Minor = "0";
-	public const string Build = "2";
-	public const string Revision = "6466";
-	
-	public const string MainVersion = Major + "." + Minor;
-	public const string FullVersion = Major + "." + Minor + "." + Build + "." + Revision;
+internal static class RevisionClass {
+    public const string Major = "4";
+    public const string Minor = "0";
+    public const string Build = "2";
+    public const string Revision = "6466";
+
+    public const string MainVersion = Major + "." + Minor;
+    public const string FullVersion = Major + "." + Minor + "." + Build + "." + Revision;
 }

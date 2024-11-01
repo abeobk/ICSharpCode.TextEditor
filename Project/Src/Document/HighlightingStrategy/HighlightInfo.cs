@@ -5,21 +5,16 @@
 //     <version>$Revision$</version>
 // </file>
 
-using System;
+namespace ICSharpCode.TextEditor.Document {
+    public class HighlightInfo {
+        public bool BlockSpanOn = false;
+        public bool Span = false;
+        public Span CurSpan = null;
 
-namespace ICSharpCode.TextEditor.Document
-{
-	public class HighlightInfo
-	{
-		public bool BlockSpanOn = false;
-		public bool Span        = false;
-		public Span CurSpan     = null;
-		
-		public HighlightInfo(Span curSpan, bool span, bool blockSpanOn)
-		{
-			this.CurSpan     = curSpan;
-			this.Span        = span;
-			this.BlockSpanOn = blockSpanOn;
-		}
-	}
+        public HighlightInfo(Span curSpan, bool span, bool blockSpanOn) {
+            this.CurSpan = curSpan;
+            this.Span = span;
+            this.BlockSpanOn = blockSpanOn;
+        }
+    }
 }

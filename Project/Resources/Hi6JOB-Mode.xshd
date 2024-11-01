@@ -155,17 +155,14 @@
 				<Key word = "retsub" />
 				<Key word = "return" />
 				<Key word = "break" />
-				<Key word = "_MECHTYPE" />
-				<Key word = "_TOTAL_AX" />
-				<Key word = "_AUX_AX" />
 			</KeyWords>
 
 			<KeyWords name = "Header" bold="true" italic="false" color="Magenta">
 				<Key word = "PROG" />
 				<Key word = "#PROG" />
-				<Key word = "MechType" />
-				<Key word = "TotalAxis" />
-				<Key word = "AuxAxis" />
+				<Key word = "mech_type" />
+				<Key word = "total_axis" />
+				<Key word = "aux_axis" />
 			</KeyWords>
         </RuleSet>
 	</RuleSets>

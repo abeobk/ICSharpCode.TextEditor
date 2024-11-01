@@ -167,8 +167,6 @@
 				<Key word = "TotalAxis" />
 				<Key word = "AuxAxis" />
 			</KeyWords>
-
-
         </RuleSet>
 	</RuleSets>
 </SyntaxDefinition>

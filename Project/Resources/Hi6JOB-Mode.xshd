@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!-- syntaxdefinition for Hyundai robot language (Do Van Phu 2024)-->
 
-<SyntaxDefinition name = "HRJOB" extensions = ".job">
+<SyntaxDefinition name = "HRHi6JOB" extensions = ".job">
     <Digits name = "Digits" bold = "false" italic = "false" color = "Maroon"/>
 	<RuleSets>
 		<RuleSet ignorecase = "false">

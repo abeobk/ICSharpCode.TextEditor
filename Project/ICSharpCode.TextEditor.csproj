@@ -212,6 +212,7 @@
     <EmbeddedResource Include="Resources\CSharp-Mode.xshd" />
     <EmbeddedResource Include="Resources\HTML-Mode.xshd" />
     <EmbeddedResource Include="Resources\JOB-Mode.xshd" />
+    <None Include="Resources\Hi6JOB-Mode.xshd" />
     <None Include="Resources\ICSharpCode.TextEditor.snk" />
     <EmbeddedResource Include="Resources\TextEditorControl.bmp" />
     <EmbeddedResource Include="Resources\Java-Mode.xshd" />

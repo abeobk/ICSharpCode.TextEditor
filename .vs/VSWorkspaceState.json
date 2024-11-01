@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Project",
+    "\\Project\\Resources"
   ],
-  "SelectedNode": "\\ICSharpCode.TextEditor.sln",
+  "SelectedNode": "\\Project\\Resources\\JOB-Mode.xshd",
   "PreviewInSolutionExplorer": false
 }

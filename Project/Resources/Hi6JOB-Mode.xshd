@@ -8,7 +8,7 @@
 			<Delimiters>&amp;~!%^*()-+=|\/{}[]:;"'&lt;&gt; , .?</Delimiters>
 		
 			<Span name = "LineComment" bold = "false" italic = "false" color = "Green" stopateol = "true">
-				<Begin>'</Begin>
+				<Begin>#</Begin>
 			</Span>
 			
 			<Span name = "String" bold = "false" italic = "false" color = "DarkCyan" stopateol = "true" escapecharacter="\">
@@ -17,8 +17,8 @@
 			</Span>
 
 			<Span name = "Header1" bold = "false" italic = "false" color = "Magenta" stopateol = "true" escapecharacter="\">
-				<Begin>Program</Begin>
-				<End>Version</End>
+				<Begin>Hyundai</Begin>
+				<End>File</End>
 			</Span>
 
             <KeyWords name = "SHARP" bold = "true" italic = "false" color = "Magenta">
@@ -65,69 +65,109 @@
 				<Key word = "ST" />
 				<Key word = "CRD" />
 				<Key word = "R" />
-				<Key word = "B" />
-				<Key word = "U1" />
-				<Key word = "U2" />
-				<Key word = "U3" />
-				<Key word = "U4" />
-				<Key word = "U5" />
-				<Key word = "U6" />
-				<Key word = "U7" />
-				<Key word = "U8" />
-				<Key word = "U9" />
-				<Key word = "U10" />
-				<Key word = "U11" />
-				<Key word = "U12" />
-				<Key word = "U13" />
-				<Key word = "U14" />
-				<Key word = "U15" />
+				<Key word = "tg" />
+				<Key word = "spd" />
+				<Key word = "accu" />
+				<Key word = "tool" />
+				<Key word = "date" />
+				<Key word = "time" />
+				<Key word = "timer" />
+				<Key word = "robot" />
+				<Key word = "base" />
+				<Key word = "u1" />
+				<Key word = "u2" />
+				<Key word = "u3" />
+				<Key word = "u4" />
+				<Key word = "u5" />
+				<Key word = "u6" />
+				<Key word = "u7" />
+				<Key word = "u8" />
+				<Key word = "u9" />
+				<Key word = "u10" />
+				<Key word = "u11" />
+				<Key word = "u12" />
+				<Key word = "u13" />
+				<Key word = "u14" />
+				<Key word = "u15" />
 			</KeyWords>
 
 			<KeyWords name = "Keyword" bold="true" italic="false" color="Blue">
-				<Key word = "MKUCRD" />
-				<Key word = "SELUCRD" />
-				<Key word = "TOOLSEL" />
-				<Key word = "RESET" />
-				<Key word = "SEND" />
-				<Key word = "PRINT" />
-				<Key word = "CALL" />
-				<Key word = "CALLPR" />
-				<Key word = "IF" />
-				<Key word = "THEN" />
-				<Key word = "ELSE" />
-				<Key word = "FOR" />
-				<Key word = "DO" />
-				<Key word = "END" />
-				<Key word = "SONL" />
-				<Key word = "TONL" />
-				<Key word = "NEXT" />
-				<Key word = "CONTINUE" />
+				<Key word = "until" />
+				<Key word = "for" />
+				<Key word = "next" />
+				<Key word = "end" />
+				<Key word = "if" />
+				<Key word = "then" />
+				<Key word = "else" />
+				<Key word = "endif" />
+				<Key word = "switch" />
+				<Key word = "case" />
+				<Key word = "default" />
+				<Key word = "end_switch" />
+				<Key word = "var" />
+				<Key word = "global" />
+				<Key word = "print" />
+				<Key word = "true" />
+				<Key word = "false" />
+				<Key word = "Array" />
+				<Key word = "Pose" />
+				<Key word = "Shift" />
+				<Key word = "cpo" />
+				<Key word = "auto" />
+				<Key word = "mkucs" />
+				<Key word = "result" />
+				<Key word = "mkshift" />
+				<Key word = "selucrd" />
+				<Key word = "contpath" />
+				<Key word = "coldet" />
+				<Key word = "colsense" />
+				<Key word = "softxyz" />
+				<Key word = "softxyz_lim" />
+				<Key word = "softjoint" />
+				<Key word = "softjoint_lim" />
+				<Key word = "convcrd" />
+				<Key word = "pose_trans" />
+				<Key word = "pose_inv" />
+				<Key word = "axisctrl" />
+				<Key word = "smov" />
+				<Key word = "shift" />
+				<Key word = "shift_lim" />
+				<Key word = "calshift" />
+				<Key word = "valid" />
+				<Key word = "str_array" />
+				<Key word = "import" />
+				<Key word = "as" />
+				<Key word = "continue" />
+				<Key word = "param" />
+				<Key word = "alias" />
+				<Key word = "def" />
 			</KeyWords>
 
 			<KeyWords name = "Keyword1" bold="true" italic="false" color="Red">
-				<Key word = "STOP" />
-				<Key word = "BREAK" />
-				<Key word = "GOTO" />
-				<Key word = "WAIT" />
-				<Key word = "CALL" />
-				<Key word = "DELAY" />
-				<Key word = "RETURN" />
-				<Key word = "GOSUB" />
-				<Key word = "RETSUB" />
+				<Key word = "jump" />
+				<Key word = "call" />
+				<Key word = "stop" />
+				<Key word = "end" />
+				<Key word = "wait" />
+				<Key word = "delay" />
+				<Key word = "goto" />
+				<Key word = "gosub" />
+				<Key word = "retsub" />
+				<Key word = "return" />
+				<Key word = "break" />
 				<Key word = "_MECHTYPE" />
 				<Key word = "_TOTAL_AX" />
 				<Key word = "_AUX_AX" />
 			</KeyWords>
 
 			<KeyWords name = "Header" bold="true" italic="false" color="Magenta">
-				<Key word = "#PROG" />
 				<Key word = "PROG" />
-				<Key word = "DI" />
-				<Key word = "DO" />
+				<Key word = "#PROG" />
 				<Key word = "MechType" />
 				<Key word = "TotalAxis" />
 				<Key word = "AuxAxis" />
 			</KeyWords>
+
 
         </RuleSet>
 	</RuleSets>

@@ -1,0 +1,79 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Do Van Phu\\source\\repos\\ICSharpCode.TextEditor1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2D18BE89-D210-49EB-A9DD-2246FBB3DF6D}|Project\\ICSharpCode.TextEditor.csproj|c:\\users\\do van phu\\source\\repos\\icsharpcode.texteditor1\\project\\resources\\sql-mode.xshd||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{2D18BE89-D210-49EB-A9DD-2246FBB3DF6D}|Project\\ICSharpCode.TextEditor.csproj|solutionrelative:project\\resources\\sql-mode.xshd||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D18BE89-D210-49EB-A9DD-2246FBB3DF6D}|Project\\ICSharpCode.TextEditor.csproj|c:\\users\\do van phu\\source\\repos\\icsharpcode.texteditor1\\project\\resources\\syntaxmodes.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2D18BE89-D210-49EB-A9DD-2246FBB3DF6D}|Project\\ICSharpCode.TextEditor.csproj|solutionrelative:project\\resources\\syntaxmodes.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D18BE89-D210-49EB-A9DD-2246FBB3DF6D}|Project\\ICSharpCode.TextEditor.csproj|c:\\users\\do van phu\\source\\repos\\icsharpcode.texteditor1\\project\\resources\\karel-mode.xshd||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{2D18BE89-D210-49EB-A9DD-2246FBB3DF6D}|Project\\ICSharpCode.TextEditor.csproj|solutionrelative:project\\resources\\karel-mode.xshd||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 295,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SQL-Mode.xshd",
+              "DocumentMoniker": "C:\\Users\\Do Van Phu\\source\\repos\\ICSharpCode.TextEditor1\\Project\\Resources\\SQL-Mode.xshd",
+              "RelativeDocumentMoniker": "Project\\Resources\\SQL-Mode.xshd",
+              "ToolTip": "C:\\Users\\Do Van Phu\\source\\repos\\ICSharpCode.TextEditor1\\Project\\Resources\\SQL-Mode.xshd",
+              "RelativeToolTip": "Project\\Resources\\SQL-Mode.xshd",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-03T09:18:09.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SyntaxModes.xml",
+              "DocumentMoniker": "C:\\Users\\Do Van Phu\\source\\repos\\ICSharpCode.TextEditor1\\Project\\Resources\\SyntaxModes.xml",
+              "RelativeDocumentMoniker": "Project\\Resources\\SyntaxModes.xml",
+              "ToolTip": "C:\\Users\\Do Van Phu\\source\\repos\\ICSharpCode.TextEditor1\\Project\\Resources\\SyntaxModes.xml",
+              "RelativeToolTip": "Project\\Resources\\SyntaxModes.xml",
+              "ViewState": "AgIAAD4AAAAAAAAAAAA2wE0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-05-03T09:17:27.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "KAREL-Mode.xshd",
+              "DocumentMoniker": "C:\\Users\\Do Van Phu\\source\\repos\\ICSharpCode.TextEditor1\\Project\\Resources\\KAREL-Mode.xshd",
+              "RelativeDocumentMoniker": "Project\\Resources\\KAREL-Mode.xshd",
+              "ToolTip": "C:\\Users\\Do Van Phu\\source\\repos\\ICSharpCode.TextEditor1\\Project\\Resources\\KAREL-Mode.xshd",
+              "RelativeToolTip": "Project\\Resources\\KAREL-Mode.xshd",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAAHAAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-03T09:17:11.019Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

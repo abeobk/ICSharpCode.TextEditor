@@ -70,4 +70,12 @@
 	<Mode file       = "AS-Mode.xshd"
 	      name       = "KAWASAKI_AS"
 	      extensions = ".as"/>
+
+	<Mode file       = "KAREL-Mode.xshd"
+	      name       = "FANUC_KAREL"
+	      extensions = ".ls"/>
+
+	<Mode file       = "SQL-Mode.xshd"
+	      name       = "SQL"
+	      extensions = ".sql"/>
 </SyntaxModes>

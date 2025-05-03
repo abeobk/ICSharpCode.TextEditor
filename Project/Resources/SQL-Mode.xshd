@@ -1,0 +1,201 @@
+<?xml version="1.0"?>
+<!-- syntaxdefinition for SQL (SQLite, MySQL, MsSQL) -->
+<SyntaxDefinition name="SQL" extensions=".sql">
+
+    <Environment>
+        <Custom name="DataType" color="#2B91AF" bold="true" />
+        <Custom name="Function" color="#795E26" italic="false" />
+        <Custom name="Identifier" color="#000000" />
+    </Environment>
+
+    <Properties>
+        <!-- default line comment -->
+        <Property name="LineComment" value="--" />
+    </Properties>
+
+    <RuleSets>
+        <RuleSet ignorecase="true">
+            <!-- characters that separate tokens -->
+            <Delimiters>
+                \t\r\n,;()<>!=+-*/%&amp;|^~[]{}.
+            </Delimiters>
+
+            <!-- Comments -->
+            <Span name="HashLineComment" color="Green" stopateol="true">
+                <Begin>#</Begin>
+            </Span>
+            <Span name="LineComment" color="Green" stopateol="true">
+                <Begin>--</Begin>
+            </Span>
+            <Span name="BlockComment" color="Green" stopateol="false">
+                <Begin>/*</Begin>
+                <End>*/</End>
+            </Span>
+
+            <!-- String Literals -->
+            <Span name="String" color="Blue" stopateol="false" escapecharacter="\">
+                <Begin>'</Begin>
+                <End>'</End>
+            </Span>
+
+            <!-- Quoted Identifiers -->
+            <Span name="BracketIdentifier" color="DarkRed" stopateol="false">
+                <Begin>[</Begin>
+                <End>]</End>
+            </Span>
+            <Span name="BacktickIdentifier" color="DarkRed" stopateol="false">
+                <Begin>`</Begin>
+                <End>`</End>
+            </Span>
+            <Span name="DoubleQuotedIdentifier" color="DarkRed" stopateol="false">
+                <Begin>"</Begin>
+                <End>"</End>
+            </Span>
+
+            <!-- Numeric Literals -->
+            <Digits name="Number" color="DarkBlue" />
+
+            <!-- SQL Statements -->
+            <KeyWords name="Statements" color="Blue" bold="true">
+                <Key word="SELECT" />
+                <Key word="INSERT" />
+                <Key word="UPDATE" />
+                <Key word="DELETE" />
+                <Key word="MERGE" />
+                <Key word="CALL" />
+                <Key word="EXPLAIN" />
+                <Key word="DESCRIBE" />
+                <Key word="USE" />
+            </KeyWords>
+
+            <!-- Clauses & Joins -->
+            <KeyWords name="Clauses" color="Blue" bold="true">
+                <Key word="FROM" />
+                <Key word="WHERE" />
+                <Key word="GROUP" />
+                <Key word="HAVING" />
+                <Key word="ORDER" />
+                <Key word="BY" />
+                <Key word="LIMIT" />
+                <Key word="OFFSET" />
+                <Key word="TOP" />
+                <Key word="INNER" />
+                <Key word="LEFT" />
+                <Key word="RIGHT" />
+                <Key word="FULL" />
+                <Key word="OUTER" />
+                <Key word="JOIN" />
+                <Key word="ON" />
+                <Key word="AND" />
+                <Key word="OR" />
+                <Key word="IN" />
+                <Key word="EXISTS" />
+                <Key word="UNION" />
+                <Key word="INTERSECT" />
+                <Key word="EXCEPT" />
+            </KeyWords>
+
+            <!-- Data Definition Language -->
+            <KeyWords name="DataDefinition" color="Blue" bold="true">
+                <Key word="CREATE" />
+                <Key word="ALTER" />
+                <Key word="DROP" />
+                <Key word="TRUNCATE" />
+                <Key word="RENAME" />
+                <Key word="COMMENT" />
+            </KeyWords>
+
+            <!-- Data Types -->
+            <KeyWords name="DataTypes" color="#2B91AF" bold="true">
+                <Key word="INT" />
+                <Key word="INTEGER" />
+                <Key word="SMALLINT" />
+                <Key word="TINYINT" />
+                <Key word="BIGINT" />
+                <Key word="DECIMAL" />
+                <Key word="NUMERIC" />
+                <Key word="FLOAT" />
+                <Key word="REAL" />
+                <Key word="DOUBLE" />
+                <Key word="BIT" />
+                <Key word="DATE" />
+                <Key word="TIME" />
+                <Key word="TIMESTAMP" />
+                <Key word="DATETIME" />
+                <Key word="CHAR" />
+                <Key word="NCHAR" />
+                <Key word="VARCHAR" />
+                <Key word="NVARCHAR" />
+                <Key word="TEXT" />
+                <Key word="BLOB" />
+            </KeyWords>
+
+            <!-- Built-in Functions -->
+            <KeyWords name="Functions" color="#795E26" italic="false">
+                <Key word="COUNT" />
+                <Key word="SUM" />
+                <Key word="AVG" />
+                <Key word="MIN" />
+                <Key word="MAX" />
+                <Key word="LENGTH" />
+                <Key word="SUBSTRING" />
+                <Key word="CONCAT" />
+                <Key word="COALESCE" />
+                <Key word="ISNULL" />
+                <Key word="NULLIF" />
+                <Key word="CAST" />
+                <Key word="CONVERT" />
+                <Key word="DATEDIFF" />
+                <Key word="DATEADD" />
+                <Key word="GETDATE" />
+                <Key word="NOW" />
+            </KeyWords>
+
+            <!-- Transactions -->
+            <KeyWords name="Transaction" color="Blue" bold="true">
+                <Key word="BEGIN" />
+                <Key word="COMMIT" />
+                <Key word="ROLLBACK" />
+                <Key word="SAVEPOINT" />
+                <Key word="RELEASE" />
+            </KeyWords>
+
+            <!-- Control Flow -->
+            <KeyWords name="ControlFlow" color="Blue" bold="true">
+                <Key word="IF" />
+                <Key word="ELSE" />
+                <Key word="WHILE" />
+                <Key word="LOOP" />
+                <Key word="END" />
+            </KeyWords>
+
+            <!-- Variables & Parameters -->
+            <KeyWords name="Variables" color="Brown">
+                <Key word="@" />
+                <Key word="@@IDENTITY" />
+                <Key word="@@ROWCOUNT" />
+            </KeyWords>
+
+            <!-- Miscellaneous -->
+            <KeyWords name="Misc" color="Teal">
+                <Key word="NULL" />
+                <Key word="DEFAULT" />
+                <Key word="VIEW" />
+                <Key word="INDEX" />
+                <Key word="PRIMARY" />
+                <Key word="KEY" />
+                <Key word="FOREIGN" />
+                <Key word="REFERENCES" />
+                <Key word="CHECK" />
+                <Key word="CONSTRAINT" />
+                <Key word="UNIQUE" />
+                <Key word="GRANT" />
+                <Key word="REVOKE" />
+                <Key word="DECLARE" />
+                <Key word="EXEC" />
+                <Key word="SET" />
+            </KeyWords>
+
+        </RuleSet>
+    </RuleSets>
+</SyntaxDefinition>

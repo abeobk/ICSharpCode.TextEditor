@@ -101,7 +101,7 @@ namespace ICSharpCode.TextEditor.Document {
                     return highlighter;
                 }
             } catch(Exception e) {
-                throw new HighlightingDefinitionInvalidException("Could not load mode definition file '" + syntaxMode.FileName + "'.\n", e);
+                throw new HighlightingDefinitionInvalidException("Could not load mode definition file '" + syntaxMode.FileName + "'.\n"+e.StackTrace, e);
             }
         }
     }

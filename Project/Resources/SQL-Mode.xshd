@@ -1,23 +1,12 @@
 <?xml version="1.0"?>
 <!-- syntaxdefinition for SQL (SQLite, MySQL, MsSQL) -->
 <SyntaxDefinition name="SQL" extensions=".sql">
-
-    <Environment>
-        <Custom name="DataType" color="#2B91AF" bold="true" />
-        <Custom name="Function" color="#795E26" italic="false" />
-        <Custom name="Identifier" color="#000000" />
-    </Environment>
-
-    <Properties>
-        <!-- default line comment -->
-        <Property name="LineComment" value="--" />
-    </Properties>
-
+    <Digits name = "Digits" bold = "false" italic = "false" color = "DarkBlue"/>
     <RuleSets>
         <RuleSet ignorecase="true">
             <!-- characters that separate tokens -->
             <Delimiters>
-                \t\r\n,;()<>!=+-*/%&amp;|^~[]{}.
+                \t\r\n,;()&lt;&gt;!=+-*/%&amp;|^~[]{}.
             </Delimiters>
 
             <!-- Comments -->
@@ -51,9 +40,6 @@
                 <Begin>"</Begin>
                 <End>"</End>
             </Span>
-
-            <!-- Numeric Literals -->
-            <Digits name="Number" color="DarkBlue" />
 
             <!-- SQL Statements -->
             <KeyWords name="Statements" color="Blue" bold="true">

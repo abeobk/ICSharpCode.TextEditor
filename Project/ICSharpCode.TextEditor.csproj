@@ -235,6 +235,7 @@
     <EmbeddedResource Include="Resources\AS-Mode.xshd" />
     <EmbeddedResource Include="Resources\KAREL-Mode.xshd" />
     <EmbeddedResource Include="Resources\SQL-Mode.xshd" />
+    <EmbeddedResource Include="Resources\PythonClone-Mode.xshd" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">

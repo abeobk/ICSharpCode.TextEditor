@@ -112,6 +112,7 @@
 				<Key word = "ELSE" />
 				<Key word = "FOR" />
 				<Key word = "DO" />
+				<Key word = "UNTIL" />
 				<Key word = "END" />
 				<Key word = "CASE" />
 				<Key word = "RETURN" />
